@@ -156,6 +156,7 @@
 ### Технический паплайн
 [Технический пайплайн.pdf](https://github.com/user-attachments/files/19584210/default.pdf)
 
+[Схема технического паплайна](https://github.com/storytech-46team/StoryTech/blob/main/pdf/Технический%20пайплайн.pdf)
 
 ***
 
