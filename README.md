@@ -267,10 +267,27 @@
 ОЗУ:
 накопитель:
 ## Программные требования
-питон версия №
-Flux
-ComfyUI
-Jupyter Notebook
+
+# ComfyUI - Генерация изображений через API
+
+
+### Необходимые модели для работы Flux через ComfyUI:
+
+| **Тип модели**               | **Файл**                     |
+|------------------------------|------------------------------|
+| **Unet Diffusion Model**     | `flux1-dev.safetensors`      |
+| **DualCLIPLoader (clip1)**   | `t5xxl_fp16.safetensors`     |
+| **DualCLIPLoader (clip2)**   | `clip_l.safetensors`         |
+| **VAE (Variational Autoencoder)** | `ae.safetensors`        |
+
+Дополнительные файлы:
+- [Шаблон python запроса изображения](flux/template-flux-api-in-python.py)
+- [Визуальное отображение взаимосвязи модулей flux](flux/flux.dev1.node-pipeline.png)
+
+
+
+пример - питон версия 
+пример - Jupyter Notebook
 
 ---
 
