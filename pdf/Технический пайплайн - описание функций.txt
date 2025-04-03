@@ -1,0 +1,82 @@
+class Novella:
+    # 1. Обработка учебного материала
+    def summarize_material(self):
+        """Суммаризирует учебный материал, выделяя ключевые моменты"""
+
+    def split_summary_into_blocks(self):
+        """Разбивает суммаризированный материал на логические блоки"""
+
+    # 2. Генерация сценария
+    def pregenerate_scenario(self):
+        """Создает предварительный сценарий на основе локаций и персонажей"""
+
+    def display_preliminary_scenario(self):
+        """Выводит предварительный вариант сценария для просмотра"""
+
+    def generate_material_prompt(self):
+        """Генерирует промт на основе учебных материалов"""
+
+    def save_scenario_to_db(self):
+        """Сохраняет сценарий в базу данных"""
+
+    # 3. Структура новеллы
+    def convert_to_novella_structure(self):
+        """Преобразует сценарий в структуру новеллы"""
+
+    def display_regenerated_blocks(self):
+        """Показывает список перегенерированных блоков"""
+
+    def generate_block_prompts(self):
+        """Создает промты для отдельных блоков новеллы"""
+
+    # 4. Генерация глав и сцен
+    def pregenerate_chapters(self):
+        """Генерирует главы по алгоритму сценария"""
+
+    def generate_scenes_and_subscenes(self):
+        """Создает сцены и мизансцены для глав"""
+
+    def preview_chapter(self):
+        """Предварительный просмотр главы"""
+
+    def display_chapter_summary(self):
+        """Выводит краткое содержание главы"""
+
+    # 5. Сборка новеллы
+    def assemble_novella(self):
+        """Собирает все блоки в единую новеллу"""
+
+    def preview_novella_content(self):
+        """Предпросмотр содержания новеллы"""
+
+    def display_content_overview(self):
+        """Отображает общее содержание новеллы"""
+
+    # 6. Генерация диалогов и иллюстраций
+    def generate_dialogue(self):
+        """Генерирует диалоги для сцен"""
+
+    def display_content(self):
+        """Отображает содержание сцены"""
+
+    def generate_illustration(self):
+        """Создает иллюстрации для сцен"""
+
+    def generate_dialogue_prompt(self):
+        """Генерирует промты для диалогов"""
+
+    def display_illustration_with_info(self):
+        """Показывает иллюстрацию с сопутствующей информацией"""
+
+    def generate_scene_prompt(self):
+        """Создает промты для генерации сцен"""
+
+    def pregenerate_scenes(self):
+        """Предварительно генерирует сцены по сценарию"""
+
+    def render_illustration(self):
+        """Рендерит финальные иллюстрации"""
+
+    # 7. Сохранение
+    def save_changes(self):
+        """Сохраняет все изменения в новелле"""
