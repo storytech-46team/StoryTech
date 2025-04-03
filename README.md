@@ -154,6 +154,7 @@
 
 ***
 ### Технический паплайн
+[Технический пайплайн.pdf](https://github.com/user-attachments/files/19584210/default.pdf)
 
 
 ***
