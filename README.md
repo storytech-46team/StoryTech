@@ -344,6 +344,11 @@
 
 [SQL скрипт для создания таблиц](https://github.com/storytech-46team/StoryTech/blob/main/characters.sql)
 
+Схема таблиц "Персонажи"
+![1KuuCAVP-WBADk137N](https://github.com/user-attachments/assets/9a7f0f23-dc99-4633-90e4-65c556b0ed03)
+
+
+
 ***
 
 ## Требования
