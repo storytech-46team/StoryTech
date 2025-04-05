@@ -342,7 +342,7 @@
 | Уроки (какие выводы делает персонаж?) | lessons | TEXT                         |
 
 
-[SQL скрипт для создания таблиц](https://github.com/storytech-46team/StoryTech/blob/main/SQL_queries/characters.sql)
+[SQL скрипт для создания таблиц персонажи](https://github.com/storytech-46team/StoryTech/blob/main/SQL_queries/characters.sql)
 
 Схема таблиц "Персонажи"
 ![1KuuCAVP-WBADk137N](https://github.com/user-attachments/assets/9a7f0f23-dc99-4633-90e4-65c556b0ed03)
@@ -400,7 +400,9 @@
 | Порядковый номер реплики на странице | replica_number | INTEGER       |
 
 
-[SQL скрипт для создания таблиц](https://github.com/storytech-46team/StoryTech/blob/main/SQL_queries/novel.sql)
+[SQL скрипт для создания таблиц новелла](https://github.com/storytech-46team/StoryTech/blob/main/SQL_queries/novel.sql)
+
+Схема таблиц Новелла
 
 ![8zTX6WVP-GKx8M137S](https://github.com/user-attachments/assets/92c2c1ec-05d6-478e-ac4c-54b40cf6928d)
 
