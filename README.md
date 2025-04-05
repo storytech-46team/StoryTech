@@ -495,6 +495,11 @@
 
 [SQL-скрипт для создания таблиц миры](https://github.com/storytech-46team/StoryTech/blob/main/SQL_queries/worlds.sql)
 
+Схема таблиц для “Миры”
+![87vaMpVP-38BYQ137K](https://github.com/user-attachments/assets/207fe69c-24ca-446c-b30d-ca2d248ab780)
+
+
+
 ***
 
 ## Требования
