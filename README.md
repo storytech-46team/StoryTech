@@ -359,6 +359,16 @@
 | Краткий сюжет     | plot_summary  | TEXT            |
 
 
+2.Таблица chapters – главы
+
+| Параметр          | Имя           | Тип             |
+|-------------------|---------------|-----------------|
+| Идентификатор     | chapter_id    | PRIMARY KEY     |
+| Название главы    | title         | VARCHAR(255)    |
+| Текст описания главы | chapter_summary | TEXT            |
+| Внешний ключ на таблицу `novels` | novel_id        | INTEGER       |
+| Порядковый номер главы | chapter_number | INTEGER       |
+
 
 ***
 
