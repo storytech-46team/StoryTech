@@ -493,6 +493,8 @@
 | Влияние объекта на мир        | object_impact     | TEXT                         |
 
 
+[SQL-скрипт для создания таблиц миры](https://github.com/storytech-46team/StoryTech/blob/main/SQL_queries/worlds.sql)
+
 ***
 
 ## Требования
