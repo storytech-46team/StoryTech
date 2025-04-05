@@ -411,6 +411,43 @@
 
 ### Учебный материал
 
+1. Таблица education_courses (Курсы)
+
+| Параметр          | Имя           | Тип             |
+|-------------------|---------------|-----------------|
+| Идентификатор курса | id            | PRIMARY KEY     |
+| Название курса    | course_name   | VARCHAR(100)    |
+
+2. Таблица education_modules (Модули)
+
+| Параметр          | Имя           | Тип                          |
+|-------------------|---------------|------------------------------|
+| Идентификатор модуля | id            | PRIMARY KEY                  |
+| Привязка к курсу   | course_id     | INTEGER REFERENCES courses(id) |
+| Название модуля    | module_name   | VARCHAR(100)                 |
+
+
+3. Таблица education_lessons_and_materials (Занятия)
+
+| Параметр          | Имя           | Тип             |
+|-------------------|---------------|-----------------|
+| Идентификатор занятия | id            | PRIMARY KEY     |
+| Привязка к модулю   | module_id     | INTEGER REFERENCES modules(id) |
+| Название занятия    | lesson_name   | VARCHAR(100)    |
+| Название учебного материала | title         | VARCHAR(100)    |
+| Путь к файлу        | file_path     | TEXT            |
+| План лекции        | lecture_plan  | TEXT            |
+| Ключевые моменты лекции | key_points   | TEXT            |
+
+
+[SQL скрипт для создания таблиц учебный материал](https://github.com/storytech-46team/StoryTech/blob/main/SQL_queries/educational_material.sql)
+
+![9PIPmSVP-Ahmj9137T](https://github.com/user-attachments/assets/84654a3a-11fa-43f4-92a5-e15d5bbefd0c)
+
+
+[SQL-скрипт для заполнения учебным материалом блиц:](https://github.com/storytech-46team/StoryTech/blob/main/SQL_queries/insert_educational_material.sql)
+
+
 
 ***
 
