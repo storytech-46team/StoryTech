@@ -334,6 +334,10 @@
 | Ошибки и провалы (как они связаны с учебными целями?) | mistakes | TEXT                         |
 | Уроки (какие выводы делает персонаж?) | lessons | TEXT                         |
 
+
+[SQL скрипт для создания таблиц](https://github.com/storytech-46team/StoryTech/blob/main/characters.sql)
+
+
 ***
 
 ## Требования
