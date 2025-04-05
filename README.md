@@ -369,6 +369,35 @@
 | Внешний ключ на таблицу `novels` | novel_id        | INTEGER       |
 | Порядковый номер главы | chapter_number | INTEGER       |
 
+3.Таблица scenes – сцены
+
+| Параметр          | Имя           | Тип             |
+|-------------------|---------------|-----------------|
+| Идентификатор     | scene_id      | PRIMARY KEY     |
+| Название сцены    | title         | VARCHAR(255)    |
+| Текст описания сцены | scene_summary | TEXT            |
+| Внешний ключ на таблицу `chapters` | chapter_id      | INTEGER       |
+| Порядковый номер сцены | scene_number | INTEGER       |
+
+4.Таблица pages – страницы
+
+| Параметр          | Имя           | Тип             |
+|-------------------|---------------|-----------------|
+| Идентификатор     | page_id       | PRIMARY KEY     |
+| Путь к изображению | image_path    | VARCHAR(255)    |
+| Внешний ключ на таблицу `scenes` | scene_id        | INTEGER       |
+| Порядковый номер страницы | page_number | INTEGER       |
+
+
+5.Таблица replicas – реплики
+
+| Параметр          | Имя           | Тип             |
+|-------------------|---------------|-----------------|
+| Идентификатор     | replica_id    | PRIMARY KEY     |
+| Текст реплики     | text          | TEXT            |
+| Внешний ключ на таблицу `pages` | page_id         | INTEGER       |
+| Внешний ключ на таблицу `characters` | character_id   | INTEGER       |
+| Порядковый номер реплики на странице | replica_number | INTEGER       |
 
 ***
 
